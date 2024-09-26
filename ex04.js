@@ -4,7 +4,7 @@
 
 function sumOfDigits(n) {
   // Your code here
-  if(n == "") {
+  if(n.length === 0) {
     return 0;
   }
 
