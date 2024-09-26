@@ -13,6 +13,11 @@ function subtract(...numbers) {
     return total - current;
   }, 0)
 
+  // let diff = numbers[0];
+  // for (let i = 0; i < numbers.length; i++) {
+  //   diff -= numbers[i]
+  // }
+
   return difference;
 }
 
